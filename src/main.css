@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(177, 133, 218);
+    padding: 1rem;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    gap: 10rem;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(66, 65, 65);
+    font-size: large;
+}
